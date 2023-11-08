@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\HP\Desktop\UniNoteFin\UniNote\out\artifacts\UniNote_jar\UniNote.jar</jar>
+  <outfile>C:\Users\HP\Desktop\UniNoteFin\UniNote\out\artifacts\UniNote_jar\UniNote.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>true</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <singleInstance>
+    <mutexName>UniNote.exe</mutexName>
+    <windowTitle>UniNote.exe</windowTitle>
+  </singleInstance>
+  <jre>
+    <path>JRE</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>

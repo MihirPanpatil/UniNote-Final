@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UniNote:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UniNote_jar</output-path>
+    <root id="archive" name="UniNote.jar">
+      <element id="module-output" name="UniNote" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../JavaFX/javafx-sdk-21.0.1/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../JavaFX/javafx-sdk-21.0.1/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../JavaFX/javafx-sdk-21.0.1/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/jfoenix-9.0.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../JavaFX/javafx-sdk-21.0.1/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../JavaFX/javafx-sdk-21.0.1/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../JavaFX/javafx-sdk-21.0.1/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../JavaFX/javafx-sdk-21.0.1/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../JavaFX/javafx-sdk-21.0.1/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="dir-copy" path="$PROJECT_DIR$/../../../../../JavaFX/javafx-sdk-21.0.1/bin" />
+    </root>
+  </artifact>
+</component>

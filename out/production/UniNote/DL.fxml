@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="950.0" style="-fx-background-color: #0f0f3e;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <AnchorPane prefHeight="650.0" prefWidth="250.0" style="-fx-background-color: #1e1e7b;">
+         <children>
+            <Label alignment="CENTER" layoutX="59.0" layoutY="47.0" prefHeight="64.0" prefWidth="182.0" text="UniNote&lt;&gt;" textFill="WHITE">
+               <font>
+                  <Font name="Franklin Gothic Demi Cond" size="36.0" />
+               </font>
+            </Label>
+            <JFXButton buttonType="RAISED" defaultButton="true" layoutY="184.0" onAction="#DL" prefHeight="54.0" prefWidth="300.0" style="-fx-background-color: #1e1e7b;" text="Deep Learning " textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton defaultButton="true" layoutY="238.0" onAction="#BDA" prefHeight="54.0" prefWidth="300.0" style="-fx-background-color: #1e1e7b;" text="Big Data Analytics " textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <Label layoutX="375.0" layoutY="52.0" prefHeight="50.0" prefWidth="480.0" text="SEM-VII &gt; Deep Learning " textFill="WHITE" underline="true">
+         <font>
+            <Font name="Berlin Sans FB" size="36.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="209.0" onAction="#Laplace" prefHeight="32.0" prefWidth="480.0" style="-fx-background-color: #1e1e7b; -fx-background-radius: 30;" text="Fundamentals of Neural Network " textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <Label alignment="CENTER" layoutX="450.0" layoutY="131.0" prefHeight="50.0" prefWidth="347.0" text="Chapters" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="48.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="308.0" layoutY="52.0" onAction="#switchToSem7" prefHeight="50.0" prefWidth="56.0" style="-fx-background-radius: 50; -fx-background-color: #1e1e7b;" text="&lt;&lt;" textFill="WHITE">
+         <font>
+            <Font name="Broadway" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="322.0" prefHeight="32.0" prefWidth="480.0" style="-fx-background-color: #1e1e7b; -fx-background-radius: 30;" text="Autoencoders: Unsupervised Learning " textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="266.0" prefHeight="32.0" prefWidth="480.0" style="-fx-background-color: #1e1e7b; -fx-background-radius: 30;" text="Training, Optimization and Regularization of Deep Neural Network " textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="379.0" prefHeight="32.0" prefWidth="480.0" style="-fx-background-color: #1e1e7b; -fx-background-radius: 30;" text="Convolutional Neural Networks (CNN): Supervised Learning " textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="436.0" prefHeight="32.0" prefWidth="480.0" style="-fx-background-color: #1e1e7b; -fx-background-radius: 30;" text="Recurrent Neural Networks (RNN) " textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="493.0" prefHeight="32.0" prefWidth="480.0" style="-fx-background-color: #1e1e7b; -fx-background-radius: 30;" text="Recent Trends and Applications " textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

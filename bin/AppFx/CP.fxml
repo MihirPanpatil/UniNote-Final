@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="950.0" style="-fx-background-color: #0f0f3e;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <AnchorPane prefHeight="650.0" prefWidth="250.0" style="-fx-background-color: #1e1e7b;">
+         <children>
+            <Label alignment="CENTER" layoutX="59.0" layoutY="47.0" prefHeight="64.0" prefWidth="182.0" text="UniNote&lt;&gt;" textFill="WHITE">
+               <font>
+                  <Font name="Franklin Gothic Demi Cond" size="36.0" />
+               </font>
+            </Label>
+            <JFXButton buttonType="RAISED" defaultButton="true" layoutY="184.0" onAction="#Maths2" prefHeight="54.0" prefWidth="300.0" style="-fx-background-color: #1e1e7b;" text="Maths - 2" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" defaultButton="true" layoutY="238.0" onAction="#Graphics" prefHeight="54.0" prefWidth="300.0" style="-fx-background-color: #1e1e7b;" text="Graphics" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" defaultButton="true" layoutX="-6.0" layoutY="292.0" onAction="#CP" prefHeight="54.0" prefWidth="306.0" style="-fx-background-color: #1e1e7b;" text="CP" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" defaultButton="true" layoutY="346.0" onAction="#Physics2" prefHeight="54.0" prefWidth="300.0" style="-fx-background-color: #1e1e7b;" text="Physics-2" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" defaultButton="true" layoutY="400.0" onAction="#Chem2" prefHeight="54.0" prefWidth="300.0" style="-fx-background-color: #1e1e7b;" text="Chem-2" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton defaultButton="true" layoutY="454.0" onAction="#PCE1" prefHeight="54.0" prefWidth="300.0" style="-fx-background-color: #1e1e7b;" text="PCE-1" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <Label layoutX="375.0" layoutY="52.0" prefHeight="50.0" prefWidth="347.0" text="SEM-II &gt; CP" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Berlin Sans FB" size="36.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="209.0" onAction="#Laplace" prefHeight="32.0" prefWidth="480.0" style="-fx-background-color: #1e1e7b; -fx-background-radius: 30;" text="Fundamentals of C Programming " textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <Label alignment="CENTER" layoutX="450.0" layoutY="131.0" prefHeight="50.0" prefWidth="347.0" text="Chapters" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="48.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="308.0" layoutY="52.0" onAction="#switchToSem2" prefHeight="50.0" prefWidth="56.0" style="-fx-background-radius: 50; -fx-background-color: #1e1e7b;" text="&lt;&lt;" textFill="WHITE">
+         <font>
+            <Font name="Broadway" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="378.0" prefHeight="32.0" prefWidth="480.0" style="-fx-background-color: #1e1e7b; -fx-background-radius: 30;" text="Arrays and Strings " textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="322.0" prefHeight="32.0" prefWidth="480.0" style="-fx-background-color: #1e1e7b; -fx-background-radius: 30;" text="Functions " textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="266.0" prefHeight="32.0" prefWidth="480.0" style="-fx-background-color: #1e1e7b; -fx-background-radius: 30;" text="Control Structures  " textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="435.0" prefHeight="32.0" prefWidth="480.0" style="-fx-background-color: #1e1e7b; -fx-background-radius: 30;" text="Structure and Union " textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="492.0" prefHeight="32.0" prefWidth="480.0" style="-fx-background-color: #1e1e7b; -fx-background-radius: 30;" text="Pointers  " textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

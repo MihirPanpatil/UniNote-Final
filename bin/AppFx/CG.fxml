@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="950.0" style="-fx-background-color: #0f0f3e;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <AnchorPane prefHeight="650.0" prefWidth="250.0" style="-fx-background-color: #1e1e7b;">
+         <children>
+            <Label alignment="CENTER" layoutX="59.0" layoutY="47.0" prefHeight="64.0" prefWidth="182.0" text="UniNote&lt;&gt;" textFill="WHITE">
+               <font>
+                  <Font name="Franklin Gothic Demi Cond" size="36.0" />
+               </font>
+            </Label>
+            <JFXButton buttonType="RAISED" defaultButton="true" layoutY="184.0" onAction="#Maths3" prefHeight="54.0" prefWidth="300.0" style="-fx-background-color: #1e1e7b;" text="Maths - 3" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" defaultButton="true" layoutY="238.0" onAction="#DS" prefHeight="54.0" prefWidth="300.0" style="-fx-background-color: #1e1e7b;" text="DS" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" defaultButton="true" layoutX="-6.0" layoutY="292.0" onAction="#DSGT" prefHeight="54.0" prefWidth="306.0" style="-fx-background-color: #1e1e7b;" text="DSGT" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" defaultButton="true" layoutY="346.0" onAction="#DLCOA" prefHeight="54.0" prefWidth="300.0" style="-fx-background-color: #1e1e7b;" text="DLCOA" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" defaultButton="true" layoutY="400.0" onAction="#CG" prefHeight="54.0" prefWidth="300.0" style="-fx-background-color: #1e1e7b;" text="CG" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <JFXButton defaultButton="true" layoutY="454.0" onAction="#SkillLabJava" prefHeight="54.0" prefWidth="300.0" style="-fx-background-color: #1e1e7b;" text="Skill Lab(Java)" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <Label layoutX="375.0" layoutY="52.0" prefHeight="50.0" prefWidth="347.0" text="SEM-III &gt; CG" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Berlin Sans FB" size="36.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="209.0" onAction="#IOGS" prefHeight="32.0" prefWidth="480.0" style="-fx-background-color: #1e1e7b; -fx-background-radius: 30;" text="Introduction and Overview of Graphics System" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <Label alignment="CENTER" layoutX="450.0" layoutY="131.0" prefHeight="50.0" prefWidth="347.0" text="Chapters" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="48.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="308.0" layoutY="52.0" onAction="#switchToSem3" prefHeight="50.0" prefWidth="56.0" style="-fx-background-radius: 50; -fx-background-color: #1e1e7b;" text="&lt;&lt;" textFill="WHITE">
+         <font>
+            <Font name="Broadway" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="378.0" onAction="#TwoDVC" prefHeight="32.0" prefWidth="480.0" style="-fx-background-color: #1e1e7b; -fx-background-radius: 30;" text="Two-Dimensional Viewing and Clipping  " textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="322.0" onAction="#TwoDGT" prefHeight="32.0" prefWidth="480.0" style="-fx-background-color: #1e1e7b; -fx-background-radius: 30;" text="Two Dimensional Geometric Transformations " textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="266.0" onAction="#OutputPrim" prefHeight="32.0" prefWidth="480.0" style="-fx-background-color: #1e1e7b; -fx-background-radius: 30;" text="Output Primitives" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="435.0" onAction="#ThreeDGT" prefHeight="32.0" prefWidth="480.0" style="-fx-background-color: #1e1e7b; -fx-background-radius: 30;" text="Three Dimensional Geometric Transformations" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="492.0" onAction="#VSDA" prefHeight="32.0" prefWidth="480.0" style="-fx-background-color: #1e1e7b; -fx-background-radius: 30;" text="Visible Surface Detection and Animation " textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
