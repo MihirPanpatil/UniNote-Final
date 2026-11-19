@@ -1,0 +1,12 @@
+# Build output (the runnable JAR in out/artifacts is kept on purpose)
+bin/
+out/production/
+
+# IDE workspace state
+.metadata/
+.vscode/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
